@@ -78,7 +78,7 @@ function App() {
             </div>
             <div className="relative">
               <div className="after:bg-[url('./large-long.png')] after:bg-contain after:block after:bg-no-repeat after:w-[420px] after:h-[320px] after:absolute after:top-0 after:-left-20 sm:after:-left-40 before:bg-[url('./small.png')] before:bg-contain before:block before:bg-no-repeat before:w-[180px] before:h-[220px] before:absolute before:bottom-4 before:-right-14">
-                <img src={Porfile} className="relative z-10 w-[180px] m-auto sm:w-[500px] rounded-full" />
+                <img src={Porfile} className="relative z-10 w-[185px] m-auto sm:w-[500px] rounded-full" />
               </div>
             </div>
           </div>
