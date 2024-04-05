@@ -1,9 +1,9 @@
 import "./App.css";
-import Porfile from "./assets/Photo.jpeg";
-import Project1 from "./assets/project1.jpeg";
-import Project2 from "./assets/project2.jpeg";
+import Porfile from "./assets/Photo.png";
+import Project1 from "./assets/project1.png";
+import Project2 from "./assets/project2.png";
 import Project3 from "./assets/project3.jpg";
-import Project4 from "./assets/project4.jpeg";
+import Project4 from "./assets/project4.png";
 import Facebook from "./assets/facebook.svg";
 import LinkedIn from "./assets/linkedin.svg";
 import Instagram from "./assets/instagram.svg";
