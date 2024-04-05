@@ -1,0 +1,29 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #000;
+    color: #fff;
+}
+
+.gradiant-text {
+    -webkit-background-clip: text;
+    @apply bg-gradient-to-t from-blue-500 to-cyan-500 text-transparent;
+}
+
+@keyframes typing-text {
+    from {
+        width: 60%;
+    } 
+    to {
+        width: 350px;
+    }
+}
+
+@keyframes typing-text {
+    to {
+        border-color: transparent;
+    }
+}
+
