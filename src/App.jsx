@@ -281,13 +281,13 @@ function App() {
               <div className="pl-24 mt-24 relative before:w-4 before:h-4 before:bg-gradient-to-t before:from-blue-500 before:to-cyan-500 before:absolute before:rounded-full before:left-[58px]">
                 <h3 className="absolute left-0 text-lg font-semibold">2021</h3>
                 <p>
-                  Joined at PSNA College of Engineering and Technology in the department of Electronics and Communication Engineering.
+                  Joined at PSNA College of Engineering and Technology in the department of Electronics and Communication Engineering, holding 8.07 CGPA out of 10.
                 </p>
               </div>
               <div className="pl-24 mt-24 relative before:w-4 before:h-4 before:bg-gradient-to-t before:from-blue-500 before:to-cyan-500 before:absolute before:rounded-full before:left-[58px]">
                 <h3 className="absolute left-0 text-lg font-semibold">2023</h3>
                 <p>
-                  Started working in UI/UX designing and frontend web development.
+                  Started working in UI/UX designing and static site development.
                 </p>
               </div>
             </div>
