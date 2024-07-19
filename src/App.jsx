@@ -1,7 +1,7 @@
 import "./App.css";
-import Porfile from "./assets/Photo.png";
-import Project1 from "./assets/project1.png";
-import Project2 from "./assets/project2.png";
+import Profile from "./assets/Photo.png";
+import Project1 from "./assets/project1.jpeg";
+import Project2 from "./assets/project2.jpeg";
 import Project3 from "./assets/project3.jpg";
 import Project4 from "./assets/project4.png";
 import Facebook from "./assets/facebook.svg";
@@ -65,20 +65,19 @@ function App() {
             <div>
               <h2 className="font-bold text-4xl">Hello, I'm Lavanya,</h2>
               <div>
-                <h2 className="font-bold text-4xl mt-1 gradiant-text">Frontend developer</h2>
+                <h2 className="font-bold text-4xl mt-1 gradiant-text">Full Stack developer</h2>
               </div>
               <div>
                 <p className="mt-4 text-gray-400">
-                Enthusiastic and adaptable Web Developer with a solid foundation in front-end development.Proficient in HTML, CSS, and JavaScript, with exposure to front-end frameworks like React and Next JS.Strong problem-solving skills and a willingness to learn and grow in a collaborative environment.
-                </p>
-                <button className="px-8 shadow-gray-500 shadow-md py-5 mt-5 bg-gradient-to-t from-blue-500 rounded-full to-cyan-500 hover:from-blue-700 hover:to-cyan-700">
+                Full Stack Developer with expertise in HTML, CSS, Bootstrap, JavaScript, and React for building responsive front-end applications, and proficiency in Java, Spring Boot, and SQL for developing robust back-end solutions. Adept at integrating both front-end and back-end technologies to deliver seamless, high-performance web applications.                </p>
+                <a href="src/assets/lavResume.pdf"><button className="px-8 shadow-gray-500 shadow-md py-5 mt-5 bg-gradient-to-t from-blue-500 rounded-full to-cyan-500 hover:from-blue-700 hover:to-cyan-700">
                   Download resume
-                </button>
+                </button></a>
               </div>
             </div>
             <div className="relative">
               <div className="after:bg-[url('./large-long.png')] after:bg-contain after:block after:bg-no-repeat after:w-[420px] after:h-[320px] after:absolute after:top-0 after:-left-20 sm:after:-left-40 before:bg-[url('./small.png')] before:bg-contain before:block before:bg-no-repeat before:w-[180px] before:h-[220px] before:absolute before:bottom-4 before:-right-14">
-                <img src={Porfile} className="relative z-10 w-[185px] m-auto sm:w-[500px] rounded-full" />
+                <img src={Profile} className="relative z-10 w-[185px] m-auto sm:w-[500px] rounded-full" />
               </div>
             </div>
           </div>
@@ -91,35 +90,35 @@ function App() {
               <div className="border border-gray-500 rounded-md p-5 flex-1">
                 <img src={Project1} className="w-full h-auto" />
                 <h3 className="text-2xl font-semibold mt-8">
-                  Coffee Shop Landing Page
+                  Bakery Style Landing Page
                 </h3>
                 <p className="text-gray-400 text-sm mt-2">
-                  Responsive HTML/CSS layout for online coffee shop. HTML,
+                  Responsive HTML/CSS layout for online cake shop. HTML,
                   CSS, Javascript.
                 </p>
                 <div className="flex mt-12 gap-2">
                   <button className="flex-1 text-sm py-3 bg-gradient-to-t from-blue-500 rounded-full to-cyan-500 hover:from-blue-700 hover:to-cyan-700">
-                    Live preview
+                    <a href="https://landingpage-asl.netlify.app/" target="_blank">Live preview</a>
                   </button>
                   <button className="flex-1 text-sm py-3 border rounded-full hover:border-blue-500 hover:text-blue-500">
-                    Checkout github
+                    <a href="https://github.com/Lavanya-as/OCTANET_JUNE/tree/main/Task1" target="_blank">Checkout github</a>
                   </button>
                 </div>
               </div>
               <div className="border border-gray-500 rounded-md p-5 flex-1">
                 <img src={Project2} className="w-full h-auto" />
                 <h3 className="text-2xl font-semibold mt-8">
-                  Sushi Shop 
+                  To-Do List
                 </h3>
                 <p className="text-gray-400 text-sm mt-2">
-                  Responsive HTML/CSS layout for online sushi shop. HTML, CSS.
+                  Responsive HTML/CSS layout for online sushi shop. HTML, CSS, Javascript.
                 </p>
                 <div className="flex gap-2 mt-12">
                   <button className="flex-1 text-sm py-3 bg-gradient-to-t from-blue-500 rounded-full to-cyan-500 hover:from-blue-700 hover:to-cyan-700">
-                    Live preview
+                    <a href="https://todolist-asl.netlify.app/" target="_blank">Live preview</a>
                   </button>
                   <button className="flex-1 text-sm py-3 border rounded-full hover:border-blue-500 hover:text-blue-500">
-                    Checkout github
+                    <a href="https://github.com/Lavanya-as/OCTANET_JUNE/tree/main/Task2">Checkout github</a>
                   </button>
                 </div>
               </div>
@@ -135,10 +134,10 @@ function App() {
                 </p>
                 <div className="flex gap-4 mt-12">
                   <button className="flex-1 text-sm py-3 bg-gradient-to-t from-blue-500 rounded-full to-cyan-500 hover:from-blue-700 hover:to-cyan-700">
-                    Live preview
+                    <a href="https://lavanya-as.netlify.app/" target="_blank">Live preview</a>
                   </button>
                   <button className="flex-1 text-sm py-3 border rounded-full hover:border-blue-500 hover:text-blue-500">
-                    Checkout github
+                    <a href="https://github.com/Lavanya-as/modern-portfolio-new" target="_blank">Checkout github</a>
                   </button>
                 </div>
               </div>
@@ -176,7 +175,7 @@ function App() {
               </div>
               <div className="mt-8">
                 <div className="flex justify-between items-center">
-                  <h2 className="font-semibold">CSS, Tailwind</h2>
+                  <h2 className="font-semibold">CSS, Bootstrap, Tailwind</h2>
                   <p className="text-gray-500">Advanced</p>
                 </div>
                 <span className="w-full h-2 mt-2 bg-gradient-to-t from-blue-500 to-cyan-500 block rounded-md" />
@@ -192,7 +191,7 @@ function App() {
               </div>
               <div className="mt-8">
                 <div className="flex justify-between items-center">
-                  <h2 className="font-semibold">UI design in Figma</h2>
+                  <h2 className="font-semibold">React</h2>
                   <p className="text-gray-500">Advanced</p>
                 </div>
                 <span className="w-[70%] h-2 mt-2 bg-gradient-to-t from-blue-500 to-cyan-500 block rounded-md" />
@@ -200,17 +199,17 @@ function App() {
               
               <div className="mt-8">
                 <div className="flex justify-between items-center">
-                  <h2 className="font-semibold">React</h2>
+                  <h2 className="font-semibold">Java</h2>
                   <p className="text-gray-500">Advanced</p>
                 </div>
                 <span className="w-[75%] h-2 mt-2 bg-gradient-to-t from-blue-500 to-cyan-500 block rounded-md" />
               </div>
               <div className="mt-8">
                 <div className="flex justify-between items-center">
-                  <h2 className="font-semibold">Next JS</h2>
+                  <h2 className="font-semibold">SQL</h2>
                   <p className="text-gray-500">Advanced</p>
                 </div>
-                <span className="w-[45%] h-2 mt-2 bg-gradient-to-t from-blue-500 to-cyan-500 block rounded-md" />
+                <span className="w-[75%] h-2 mt-2 bg-gradient-to-t from-blue-500 to-cyan-500 block rounded-md" />
               </div>
             </div>
           </div>
@@ -281,13 +280,19 @@ function App() {
               <div className="pl-24 mt-24 relative before:w-4 before:h-4 before:bg-gradient-to-t before:from-blue-500 before:to-cyan-500 before:absolute before:rounded-full before:left-[58px]">
                 <h3 className="absolute left-0 text-lg font-semibold">2021</h3>
                 <p>
-                  Joined at PSNA College of Engineering and Technology in the department of Electronics and Communication Engineering, holding 8.07 CGPA out of 10.
+                  Joined at PSNA College of Engineering and Technology in the department of Electronics and Communication Engineering, holding 8.28 CGPA out of 10.
+                </p>
+              </div>
+              <div className="pl-24 mt-24 relative before:w-4 before:h-4 before:bg-gradient-to-t before:from-blue-500 before:to-cyan-500 before:absolute before:rounded-full before:left-[58px]">
+                <h3 className="absolute left-0 text-lg font-semibold">2022</h3>
+                <p>
+                  Started working in UI/UX designing and static site development.
                 </p>
               </div>
               <div className="pl-24 mt-24 relative before:w-4 before:h-4 before:bg-gradient-to-t before:from-blue-500 before:to-cyan-500 before:absolute before:rounded-full before:left-[58px]">
                 <h3 className="absolute left-0 text-lg font-semibold">2023</h3>
                 <p>
-                  Started working in UI/UX designing and static site development.
+                  Started learning JavaScript, Java and SQL.
                 </p>
               </div>
             </div>
