@@ -70,7 +70,7 @@ function App() {
               <div>
                 <p className="mt-4 text-gray-400">
                 Full Stack Developer with expertise in HTML, CSS, Bootstrap, JavaScript, and React for building responsive front-end applications, and proficiency in Java, Spring Boot, and SQL for developing robust back-end solutions. Adept at integrating both front-end and back-end technologies to deliver seamless, high-performance web applications.                </p>
-                <a href="src/assets/lavResume.pdf"><button className="px-8 shadow-gray-500 shadow-md py-5 mt-5 bg-gradient-to-t from-blue-500 rounded-full to-cyan-500 hover:from-blue-700 hover:to-cyan-700">
+                <a href="src/assets/lavResume.pdf" download={lavResume.pdf}><button className="px-8 shadow-gray-500 shadow-md py-5 mt-5 bg-gradient-to-t from-blue-500 rounded-full to-cyan-500 hover:from-blue-700 hover:to-cyan-700">
                   Download resume
                 </button></a>
               </div>
